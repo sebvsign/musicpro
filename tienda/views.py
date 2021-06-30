@@ -13,4 +13,4 @@ def tbk(request):
     data ={
         'resultado':get_initTrxTBK()
     }
-    return render(request, 'tienda/tienda.html',data)
+    return render(request, 'tienda/initTrxTbk.html',data)
