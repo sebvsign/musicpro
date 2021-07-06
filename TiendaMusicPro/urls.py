@@ -23,7 +23,5 @@ urlpatterns = [
     path('', include('gestionPedidos.urls')),
     path('tienda/', include('tienda.urls')),
     path('carro/', include('carro.urls')),
-    
-    
 ]
 urlpatterns+=static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
